@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日暘的網站</title>
+    <link rel="icon" href="favicon/螢幕擷取畫面 2024-11-15 011947.png" type="image/favicon">
+    <link rel="stylesheet" href="ww.css">
+</head>
+<body>
+    <h1>你好網站</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="電繪.html">電繪</a>
+        <a href="傳統繪畫.html">傳統繪畫</a>
+        <a href="創作者推薦.html">創作者推薦</a>
+    </nav>
+    <p><a href="https://www.instagram.com/screw_418/" target="_blank" rel="noopener noreferrer">我的ig</a></p>
+    <img src="images/12.jpg" alt="Example Image" width="1280">
+
+</section>
+
+<!-- Back to Top Button -->
+<a href="#top" class="back-to-top" title="回到頂端">↑</a>
+
+<footer>
+    <p>© 2025 日暘的網站</p>
+</footer>
+
+<!-- JavaScript -->
+<script>
+    // Back-to-top functionality
+    const backToTopButton = document.querySelector('.back-to-top');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 200) {
+            backToTopButton.style.display = 'block';
+        } else {
+            backToTopButton.style.display = 'none';
+        }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+</script>
+</body>
+</html>

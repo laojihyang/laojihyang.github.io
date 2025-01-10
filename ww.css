@@ -89,6 +89,15 @@ button:hover {
     transform: scale(1.1);
     color: #333;
 }
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #333;
+}
 
 /* Navigation Bar */
 nav {
